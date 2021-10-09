@@ -3119,12 +3119,17 @@ a:last-child:hover:after {
     .table-name .tables__check {
         flex-direction:column;
         align-items: end;
+	    
     }
 
     .table-name .checkbox__label {
         margin: 0;
         margin-bottom: 5px;
     }
+	
+    .tables__check .checkbox__label.title {
+	    display: none;
+    }	    
 }
       
       
