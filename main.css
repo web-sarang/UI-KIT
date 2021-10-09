@@ -3167,4 +3167,11 @@ a:last-child:hover:after {
     .tab-btn {
         padding: 14px 40px;
     }
+	
+    .tabs-icons .tabs-nav__item {
+    padding-left: 11px 6px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    }
 }
