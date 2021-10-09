@@ -3110,13 +3110,13 @@ a:last-child:hover:after {
         border-bottom: 0;
     }
 
-    .updated-column {
+    table .updated-column {
         justify-content: end;
         flex-direction: column;
         align-items: flex-end;
     }
 
-    table .tables__check {
+    .table-name .tables__check {
         flex-direction:column;
         align-items: end;
     }
