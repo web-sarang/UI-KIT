@@ -23,3 +23,16 @@ const multiDefault = () => {
 }
 
 multiDefault();
+
+
+const paginatorDefault = () => {
+	const element = document.querySelector('.paginator-default');
+  const choices = new Choices(element, {
+		searchEnabled: false,
+		
+	});
+
+
+};
+
+paginatorDefault();
