@@ -30,7 +30,7 @@ closeBtns.forEach(item => {
 
 // Buttons 
 
-const tabIcons = document.querySelectorAll('.tab-icon, .tab-btn');
+const tabIcons = document.querySelectorAll('.tab-icon, .tab-btn, .tabs-nav__item');
 
 tabIcons.forEach(item => {
     item.addEventListener("click", function(e) {
