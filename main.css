@@ -1980,9 +1980,12 @@ border-radius: 5px;
     background-color: transparent;
 }
 
+.container.upload-error {
+    border: 1px dashed #FF3E1D;
+}
+
 .upload-error form {
     background: rgba(255, 62, 29, 0.05);
-    border: 1px dashed #FF3E1D;
     box-sizing: border-box;
     border-radius: 5px;
 }
